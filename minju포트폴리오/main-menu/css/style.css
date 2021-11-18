@@ -1,0 +1,126 @@
+/* 노멀라이징 */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  /* 라이브러리 */
+  .cell {
+    float: left;
+  }
+  .cell-r{
+    float: right;
+  }
+  .row::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  
+  .con {
+    width: 1640px;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  
+  /* 스타일 */
+  @font-face {
+  font-family: "Reenie-Beanie";
+  src: url('../font/ReenieBeanie-Regular.ttf') format('truetype'); }
+ 
+.main-wrap{
+    width: 1920px;
+    height: 969px;
+    background-color:orange;
+  position: relative;
+}
+.main-wrap > .main-menu{
+    position: absolute;
+    width: 1920px;
+    height: 80px;
+    /* background-color: #FFEFEE; */
+}
+.main-wrap > .main-menu >.logo-wrap{
+  width: 140px ;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 1%;
+  /* background-color: #ddd; */
+  overflow: hidden;
+}
+.main-wrap > .main-menu >.logo-wrap > a > img{
+  position:absolute;
+  overflow: visible;
+  top:-35% ; 
+  left:-17%;
+}
+.main-wrap > .main-menu > .menu-box {
+    margin-right: 50px;
+    width: 600px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: #FFEFEE;
+    
+}
+.main-wrap > .main-menu > .menu-box > li{
+    text-align: center;
+    width: 25%;
+    font-size: 30px;
+    line-height: 10px;
+    font-family: "Reenie-Beanie";
+  
+}
+.main-wrap > .main-video{
+  width: 600px;
+  height: 600px;
+  background-color: #D2A6A6;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+}
+.main-wrap > .main-left{
+    width: 960px;
+    height: 969px;
+    background-color: #FFF5F2;
+}
+.main-wrap > .main-left > p{
+  font-size: 500px;
+  font-family: "Reenie-Beanie";
+  margin-left: 200px;
+  margin-top: 150px;
+  color: white;
+  -webkit-text-stroke: 1px #FFEEDF;
+}
+.main-wrap > .main-right{
+    width: 960px;
+    height: 969px;
+    background-color: white;
+}
+.main-wrap > .main-right > p{
+  font-size: 500px;
+  font-family: "Reenie-Beanie";
+  margin-left: 280px;
+  margin-top: 150px;
+  color: white;
+  -webkit-text-stroke: 1px #FFEEDF;
+}
+.main-wrap > .main-b-t{
+  position: absolute;
+  bottom: 2%;
+  right:5%;
+
+}
+.main-wrap > .main-b-t > p{
+  font-size: 30px;
+  font-family: "Reenie-Beanie";
+}
