@@ -59,14 +59,14 @@
 .main-wrap > .main-menu >.logo-wrap > a > img{
   position:absolute;
   overflow: visible;
-  top:-35% ; 
+  top:-25% ; 
   left:-17%;
 }
 .main-wrap > .main-menu > .menu-box {
     margin-right: 50px;
     width: 600px;
     height: 30px;
-    margin-top: 30px;
+    margin-top: 40px;
     background-color: #FFEFEE;
     
 }
